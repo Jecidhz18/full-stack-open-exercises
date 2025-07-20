@@ -13,6 +13,5 @@
         Note over Browser: Se ejecuta el código js que solicita las <br> notas en formato json al servidor
         Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
         Server-->>Browser: Datos sin procesar de las notas data.json [{"content: "Kkaak", date: "2025-07-20T03:44:51.091Z"}, ...]    
-        Note over Browser: Se ejecuta el código js que solicita las <br> notas en formato json al servidor
         Note over Browser: Se muestran las notas en el navegador
 ```
